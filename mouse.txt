@@ -1,0 +1,17 @@
+Logitech G502 Hero mouse (via Logitech G Hub software)
+
+DPI Lighting (i.e. the 3 stripes): Always On
+Device Startup Effect: Disabled
+
+DPI Speeds: 1200 (shift), 2000 (default), 2500 (not really used)
+Report rate per second: 1000
+
+Assignments
+  G7 / G8: unbound (sometimes I hit them accidentally)
+  G9: DPI Cycle
+
+Lighting
+  Primary (i.e. the 3 stripes)
+    Effect: Fixed
+    Color: 00FFFF
+  Logo: off

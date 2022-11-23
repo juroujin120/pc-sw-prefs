@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; Caps Lock button becomes an extra Left Ctrl.
+; Right Alt button (which I never use) becomes Caps Lock (for those rare situations I need it).
+; Restart to take effect. To undo, simply delete the registry entry and restart.
+
+; https://docs.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers
+
+; The value is a sequence of little-endian DWORDs:
+;   0x00000000: Header: Version. Set to all zeroes.
+;   0x00000000: Header: Flags. Set to all zeroes.
+;   0x00000003: Three entries in the map (including null entry).
+;   0x003A001D: Map 0x3A (Caps Lock) to 0x1D (Left Ctrl)
+;   0xE038003A: Map 0xE038 (Right Alt) to 0x03 (Caps Lock)
+;   0x00000000: Null terminator.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00, 00,00,00,00, 03,00,00,00, 1d,00,3a,00, 3a,00,38,e0, 00,00,00,00

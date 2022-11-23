@@ -1,3 +1,5 @@
+Windows mouse sensitivity: 10 (in the middle)
+
 Logitech G502 Hero mouse (via Logitech G Hub software)
 
 DPI Lighting (i.e. the 3 stripes): Always On

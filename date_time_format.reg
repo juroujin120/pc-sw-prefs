@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Tested on Win10 and Win11
+; (ddd) in sLongDate is custom and not normally settable via UI
+
+[HKEY_CURRENT_USER\Control Panel\International]
+"sShortDate"="yyyy-MM-dd"
+"sLongDate"="yyyy-MM-dd (ddd)"
+"sShortTime"="HH:mm"
+"sTimeFormat"="HH:mm:ss"

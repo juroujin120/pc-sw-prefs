@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Tested on Win10
+; Disable acceleration of volume keys after repeated presses
+; https://superuser.com/a/1739649
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Audio]
+"VolumeAccelThreshold"=dword:00000000

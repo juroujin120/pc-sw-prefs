@@ -24,6 +24,10 @@ user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
 user_pref("browser.urlbar.suggest.topsites", false);
 
+user_pref("browser.urlbar.trimURLs", false);
+
 user_pref("full-screen-api.transition-duration.enter", "0 0");
 user_pref("full-screen-api.transition-duration.leave", "0 0");
 user_pref("full-screen-api.warning.timeout", 0);
+
+user_pref("keyword.enabled", false);

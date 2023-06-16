@@ -15,8 +15,6 @@ user_pref("browser.newtabpage.enabled", false);
 
 user_pref("browser.startup.homepage", "https://www.google.com");
 
-user_pref("browser.tabs.closeWindowWithLastTab", false);
-
 user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);

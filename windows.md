@@ -49,4 +49,9 @@ gpedit.msc
 * Computer Configuration\Administrative Templates\Windows Components\Credential User Interface
   * "Prevent the use of security questions for local accounts"
 
+### Disable some visual distractions
+SystemPropertiesPerformance.exe
+* Visual Effects > Custom
+  * Disable: most checkboxes saying "Animate" or "Fade" or "Shadow"
+
 *When applicable, it'd be nice to migrate these to registry scripts.*

@@ -1,0 +1,16 @@
+I'm on a Windows machine and want to access files from my Linux machine.
+
+What I'm using as of 2024:
+
+WSL
+mkdir /foo  # mount point
+echo "sshfs -o allow_other,default_permissions,reconnect,follow_symlinks me@nas:/home/me/foo /foo" > /foo/mount.sh
+chmod +x /foo/mount.sh
+echo "wsl -u me /foo/mount.sh" > /foo/mount.bat
+Open \\wsl.localhost\Ubuntu\foo in Explorer, pin to Quick Access
+Double-click mount.bat once per reboot
+
+Alternate option:
+
+https://github.com/winfsp/sshfs-win
+Map Network Drive: \\sshfs.k\me@nas\foo

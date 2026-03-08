@@ -9,7 +9,8 @@ DPI Speeds: 1200 (shift), 2000 (default)
 Report rate per second: 1000
 
 Assignments
-  G7 / G8 / G9: disabled
+  G7 / G9: disabled
+  G8: F12
   Scroll Left / Scroll Right: disabled
 
 Lighting

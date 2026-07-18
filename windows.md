@@ -55,3 +55,8 @@ SystemPropertiesPerformance.exe
   * Disable: most checkboxes saying "Animate" or "Fade" or "Shadow"
 
 *When applicable, it'd be nice to migrate these to registry scripts.*
+
+### Disable auto software install
+SystemPropertiesAdvanced.exe
+* Hardware > Device Installation Settings
+  * No: Do you want to automatically download manufacturers' apps for your devices?
